@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Layout Test</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__hamb">
+        <div class="hamb__field" id="hamb">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+      <div class="navbar__logo"><span>LOREMIPSUM.</span><span>NET</span></div>
+      <ul class="navbar__menu" id="menu">
+        <li>
+          <a class="active" href="/">Бизнес</a>
+        </li>
+        <li><a href="/">О нас</a></li>
+        <li><a href="/">Цены</a></li>
+        <li><a href="/">Оформить заказ</a></li>
+      </ul>
+    </nav>
+
+    <div class="popup" id="popup"></div>
+
+    <header class="header">
+      <div class="header__title">
+        <span>Lorem ipsum</span>
+        <span>dolor sit amet consectetur</span>
+        <span>adipiscing</span>
+      </div>
+
+      <div class="header__description">
+        <span
+          >At vero eos et accusamus et iusto odio dignissimos ducimus!
+        </span>
+        <ul>
+          <li>Totam rem aperiam eaque ipsa</li>
+          <li>Sit voluptatem accusantium doloremque laudantium</li>
+          <li>Sed ut perspiciatis, unde omnis iste natus error</li>
+        </ul>
+      </div>
+
+      <div class="header__buttons">
+        <button>Заказать</button>
+        <button>Подробнее</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="order">
+        <div class="title-block order__title-block">
+          <div class="title-block__title">
+            <span>ОФОРМЛЕНИЕ </span> <span>ЗАКАЗА</span>
+          </div>
+          <div class="title-block__subtitle">
+            <p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+          </div>
+        </div>
+
+        <div class="steps order__steps">
+          <div class="step steps__one">
+            <img src="./assets/steps/1_step.svg" alt="" />
+            <span>Lorem ipsum dolor sit amet</span>
+          </div>
+          <div class="step steps__two">
+            <img src="./assets/steps/2_step.svg" alt="" /><span
+              >Сonsecteturadipiscing elit</span
+            >
+          </div>
+          <div class="step steps__tree">
+            <img src="./assets/steps/3_step.svg" alt="" /><span
+              >Sed do eiusmod tempor</span
+            >
+          </div>
+          <div class="step steps__four">
+            <img src="./assets/steps/4_step.svg" alt="" /><span
+              >Esse cillum dolore eu fugiat</span
+            >
+          </div>
+          <div class="step steps__five">
+            <img src="./assets/steps/5_step.svg" alt="" /><span
+              >Excepteur sint occaecat cupidatat non proident</span
+            >
+          </div>
+        </div>
+
+        <form class="form order__form">
+          <div class="form__group-1">
+            <select name="type-system" id="select-order-form">
+              <option value="">Выберите тип системы</option>
+              <option value="value_2">Sed ut perspiciatis</option>
+              <option value="value_3">Nemo enim ipsam</option>
+              <option value="value_4">Et harum quidem</option>
+              <option value="value_5">Temporibus autem</option>
+              <option value="value_6">Itaque earum rerum</option>
+            </select>
+
+            <input
+              type="email"
+              name="email"
+              id="email-order-form"
+              placeholder="Ваш e-mail"
+            />
+
+            <input
+              type="text"
+              name="first-name"
+              id="name-order-form"
+              placeholder="Ваш e-mail"
+            />
+          </div>
+
+          <div class="form__group-2">
+            <div class="form__group-2__range">
+              <div class="range__title">
+                <label for="range"
+                  >Sed ut perspiciatis, unde omnis iste natus</label
+                >
+
+                <span id="range-value"></span>
+              </div>
+
+              <input type="range" name="range" id="range-order-form" />
+            </div>
+
+            <label for="file-order-form" class="file-button">
+              <img src="./assets/doc-ic.svg" alt="Загрузите файл" />
+              Прикрепить файл
+            </label>
+            <input type="file" id="file-order-form" />
+          </div>
+
+          <button type="submit">ОТПРАВИТЬ</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span> © 2018 «LoremIpsum.net» Все права защищены.</span>
+      <span class="footer__slash">|</span>
+      <div class="footer__payments">
+        <div class="footer__item">
+          <img src="./assets/qiwi-ic.svg" alt="QIWI" />
+          <a href="http://vk.com/">QIWI wallet</a>
+        </div>
+        <div class="footer__item">
+          <img src="./assets/yandex-ic.svg" alt="Yandex Money" />
+          <a href="http://vk.com/">Yandex Money</a>
+        </div>
+        <div class="footer__item">
+          <img src="./assets/webmoney-ic.svg" alt="Web Money" />
+          <a href="http://vk.com/">Web Money</a>
+        </div>
+      </div>
+      <span class="footer__slash">|</span>
+      <div class="footer__contacts">
+        <div class="footer__item">
+          <img src="./assets/mail-ic.svg" />
+          <a href="mailto:info@ipsum228.com">info@ipsum228.com</a>
+        </div>
+        <div class="footer__item">
+          <img src="./assets/vk-ic.svg" alt="" />
+          <a href="http://vk.com/">Мы вконтакте</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
