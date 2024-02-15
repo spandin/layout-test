@@ -148,7 +148,7 @@ button:hover {
   font-weight: 700;
 }
 
-.title-block__title > span:last-child {
+.title-block__title h2 span:last-child {
   color: #3E9CDC;
 }
 
