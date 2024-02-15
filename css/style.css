@@ -377,12 +377,17 @@ button[type="submit"] {
   .file-button {
     max-width: 100%;
   }
+
+  button[type="submit"] {
+    width: 100%;
+  }
 }
 
 
 @media (max-width: 768px) {
   .navbar {
     justify-content: flex-start;
+    height: 80px;
     z-index: 99;
   }
 
@@ -410,7 +415,7 @@ button[type="submit"] {
 
   .popup {
     position: fixed;
-    top: 100px;
+    top: 80px;
     left: -100%;
     width: 100%;
     height: 100%;
