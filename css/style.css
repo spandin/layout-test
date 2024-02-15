@@ -379,6 +379,7 @@ button[type="submit"] {
 @media (max-width: 768px) {
   .navbar {
     justify-content: flex-start;
+    z-index: 99;
   }
 
   .navbar__menu {
